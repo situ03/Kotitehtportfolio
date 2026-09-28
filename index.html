@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta property="og:title" content="Sini-Tuuli L – Portfolio">
+<meta property="og:description" content="Web-kehitystä ja verkko-osaamista. Katso projektit ja ota yhteyttä.">
+<meta property="og:image" content="hero.jpg">
+<meta property="og:type" content="website">
+
+<title>Sini-Tuuli L – Web-kehitys ja verkot | Portfolio</title>
+<meta name="description" content="Sini-Tuuli L:n portfolio. Front- ja backend-kehitystä sekä verkkoosaamista: kytkimien päivitystä ja konfigurointia. Katso projektit ja ota yhteyttä.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WEB DESIGNER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="/" class="navbar__logo">SINI-TUULI L</a>
+  <div class="navbar__menu">
+    <a href="#projects" class="navbar__link">Osaaminen <span class="chevron">⌄</span></a>
+    <a href="#about" class="navbar__link">About</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero__text">
+    <h1 class="hero__title">
+      Hei,<br>
+      Minä olen<br>
+      <span class="hero__highlight">Sini-Tuuli</span>.
+    </h1>
+    <p class="hero__lead">Kolmannen vuoden tradenomi, tietokenkäsittely opiskelija, joka on hirmu fiksu.</p>
+  </div>
+
+  <figure class="hero__media">
+    <img src="hero.jpg" alt="Viinilaseja raidallista taustaa vasten">
+  </figure>
+</section>
+
+<section class="about" id="about">
+  <div class="about__heading">
+    <h2 class="section-title">Kuka minä olen?</h2>
+      <img class="hero__media" src="image.png" alt="Kuva minusta">
+    
+
+  </div>
+
+  <div class="about__text">
+    <p class="about__intro">
+      Olen web-kehityksestä ja verkoista kiinnostunut tietojenkäsittely opiskelija.
+    </p>
+    <p>
+      Opiskelen siis tradenomi, tietojenkäsittelyä Vaasan Ammattikorkeakoulussa nyt kolmatta vuotta. Tällä hetkellä olen NetNordic yrityksessä harjoittelussa jossa olen päässyt seuraamaan pilvipalvelu sekä verkko asiantuntijoiden työskentelyä.
+      <br>Minua kiinnostaa juuri verkot, se miten kytkimet toimii ja sekä kuinka mikään teknologia joka on riippuvainen netistä ei toimisi ilman sitä (eli melkein kaikki).
+    </p>
+    <p>
+      Vapaalla tykkään lukea kirjoja. Oli ne sitten tietokirjoja tai fiktiivisiä. Pidän myös urheilun seuraamisesta vaikken mitään yhtä joukkuetta sen suuremmin kannata ja tietenkin oleskella kissani kanssa.
+    </p>
+
+    <p class="age">
+  Ikää minulla on: <span id="age-counter">0</span> vuotta
+</p>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2 class="section-title">Minun osaaminen</h2>
+  <div class="gallery-container">
+    <article class="skill">
+      <h3>Web development</h3>
+      <p>Osaan perusteet HTML, CSS ja JavaScript</p>
+    </article>
+    <article class="skill">
+      <h3>Network</h3>
+      <p>Harjoittelussani olen päässyt päivittämään ja configuroimaan kytkimiä sekä tiedän jotaki kyseisistä: Juniper, HPE Aruba, Cisco/Cisco Meraki, Nutanix :))</p>
+    </article>
+    <article class="skill">
+      <h3>Design</h3>
+      <p>Osaan käyttää Figmaa ja Adobe työkaluja sekä tykkään tehdä verkkosivusuunnittelua</p>
+    </article>
+    <article class="skill">
+      <h3>Marketing</h3>
+      <p>Olen tehnyt sähköposti markkinointia sekä tietenkin koulun B2B sekä perus markkinointi kurssin.</p>
+    </article>
+     <article class="skill">
+      <h3>Python ja SQL</h3>
+      <p>Osaan pythonin sekä SQL perusteet (PostgreSQL ja MySQL)</p>
+    </article>
+     <article class="skill">
+      <h3>VM ja Linux</h3>
+      <p>En ihan täydellisesti osaa mutta olen harjoitellut Ubuntu desktop ja server virtuaalikoneiden kanssa</p>
+    </article>
+    
+  </div>
+</section>
+
+
+<footer class="footer" id="contact">
+  <div class="footer__cta">
+    <a href="mailto:laaksosinituuli@gmail.com" class="footer__big">
+      Tadaa olemme<br><span>sivun lopusta!</span>
+    </a>
+    <p>clikkaa ylhäällä olevaa tekstiä ja löydät salaisen jutskan!!</p>
+  </div>
+
+  <div class="footer__bottom">
+    <a href="/" class="navbar__logo">SINI-TUULI</a>
+
+
+    <p class="footer__copy">© <span id="year"></span> Sini-Tuuli L</p>
+  </div>
+</footer>
+
+<script type="module" src="age.js"></script>
+<script type="module" src="header.js"></script>
+<script type="module" src="heroeffect.js"></script>
+<script type="module" src="projekti.js"></script>
+</body>
+</html>
+
+
+
